@@ -84,7 +84,7 @@ function gameProcess() {
   //EVENTS
   // this is a non-persistant event so it only needs to be checked
   if (ballHitWall.state === true) {
-    wallSound.play();
+    wallSound.play(AnimeLoop.wav);
   }
   if (ballHitPaddle.state) {
     paddleSound.play();
