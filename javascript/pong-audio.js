@@ -43,21 +43,21 @@ export var soundArray = []; //list of sounds loaded
 
 //Here is where all the Sound File Players Start
 
-export var wallSound = new soundFile("JJK 8-bitmp3.mp3"); //load sound
+export var wallSound = new soundFile("wall.mp3"); //load sound
 soundArray.push(JJK 8-bitmp3.mp3); //add sound to list of sounds
 
 export var paddleSound = new soundFile("NewPaddleSound.mp3");
 soundArray.push(paddleSound);
 
-export var scoreSound = new soundFile("AnimeLoop.wav");
+export var scoreSound = new soundFile("13289__timmeh515__wall-hit-3.wav");
 soundArray.push(scoreSound);
 
-export var ambientSound = new soundFile("JJK 8-bitmp3.mp3");
+export var ambientSound = new soundFile("silence.mp3");
 soundArray.push(ambientSound);
 ambientSound.player.loop = true; //turn on looping
 ambientSound.player.volume.value = -20; //turn down volume
 
-export var adventureMusic = new soundFile("JJK 8-bitmp3.mp3");
+export var adventureMusic = new soundFile("silence.mp3");
 soundArray.push(adventureMusic);
 adventureMusic.player.loop = true;
 adventureMusic.player.volume.value = -16;
