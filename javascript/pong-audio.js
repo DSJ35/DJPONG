@@ -49,7 +49,7 @@ soundArray.push(wallSound); //add sound to list of sounds
 export var paddleSound = new soundFile("NewPaddleSound.mp3");
 soundArray.push(paddleSound);
 
-export var scoreSound = new soundFile("JJK 8-bitmp3.mp3");
+export var scoreSound = new soundFile("AnimeLoop.wav");
 soundArray.push(scoreSound);
 
 export var ambientSound = new soundFile("JJK 8-bitmp3.mp3");
