@@ -44,7 +44,7 @@ export var soundArray = []; //list of sounds loaded
 //Here is where all the Sound File Players Start
 
 export var wallSound = new soundFile("JJK 8-bitmp3.mp3"); //load sound
-soundArray.push(wallSound); //add sound to list of sounds
+soundArray.push(JJK 8-bitmp3.mp3); //add sound to list of sounds
 
 export var paddleSound = new soundFile("NewPaddleSound.mp3");
 soundArray.push(paddleSound);
