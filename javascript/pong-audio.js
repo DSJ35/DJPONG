@@ -43,7 +43,7 @@ export var soundArray = []; //list of sounds loaded
 
 //Here is where all the Sound File Players Start
 
-export var wallSound = new soundFile("Wall Hit.mp3"); //load sound
+export var wallSound = new soundFile("AnimeLoop.mp3"); //load sound
 soundArray.push(wallSound); //add sound to list of sounds
 
 export var paddleSound = new soundFile("NewPaddleSound.mp3");
