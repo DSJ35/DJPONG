@@ -9,7 +9,7 @@ class soundFile {
     //this.deferPlay = false;
     this.player = new Tone.Player({
       url: "./sounds/" + file,
-      loop: true,
+      loop: false,
       autostart: false
     }).toMaster();
   }
